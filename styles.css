@@ -20,14 +20,37 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 6rem;
   color: #ff4b5c;
+  
+}
+.button-3d {
+  position:relative;
+  width: auto;
+  color:#ecf0f1;
+  text-decoration:none;
+  border-radius:5px;
+  border:solid 1px #056674;
+  background:#66bfbf;
+  text-align:center;
+  padding:16px 18px 14px;
+  outline: none;
+  font-family: 'Fredoka One', cursive;
+  font-size: large;
+
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+
+  -webkit-box-shadow: 0px 6px 0px #056674;
+  -moz-box-shadow: 0px 6px 0px #056674;
+  box-shadow: 0px 6px 0px #056674;
 }
 
-h2 {
-  margin: 30px;
-  font-family: 'Pacifico', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 4rem;
-  color: #ff4b5c;
+.button-3d:active{
+  -webkit-box-shadow: 0px 2px 0px #056674;
+  -moz-box-shadow: 0px 2px 0px #056674;
+  box-shadow: 0px 2px 0px #056674;
+  position:relative;
+  top:4px;
 }
 
 p {
@@ -37,7 +60,7 @@ p {
 }
 
 img {
-  width: 80%;
+  width: 70%;
 }
 
 footer {
